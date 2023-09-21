@@ -21,14 +21,14 @@
         "1gb-pages": true,
         "rdmsr": true,
         "wrmsr": true,
-        "cache_qos": true,
+        "cache_qos": false,
         "numa": true,
         "scratchpad_prefetch_mode": 1
     },
     "cpu": {
         "enabled": true,
-        "huge-pages": true,
-        "huge-pages-jit": true,
+        "huge-pages": false,
+        "huge-pages-jit": false,
         "hw-aes": null,
         "priority": 5,
         "memory-pool": true,
